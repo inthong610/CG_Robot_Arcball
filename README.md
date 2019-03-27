@@ -1,5 +1,5 @@
 # "Robot on Arcball Interface"
-> C++ 이용하여 개발
+> OpenGL, GLUT, C++ 이용하여 개발
 
  
 ## 1. Robot on Arcball Interface
