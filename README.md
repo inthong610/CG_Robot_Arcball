@@ -10,11 +10,11 @@
 
 #### 키보드 버튼 누르면 각 case별로 움직임이 달라진다.
 
-1 버튼 : Base가 이동되어 로봇 전체가 스페이스 위로 이동 - glTranslated(BaseTransX, 0.00f, BaseTransZ)
-2 버튼 : Base 위의 Shoulder가 360도로 이동 - glRotated(BaseSpin, 0, 1, 0)
-3 버튼 : Base 위의 Shoulder와 Elbow가 상하로 이동  - glRotated(ShoulderAng, 0, 0, 1), glRotated(ElbowAng, 0, 0, 1)
-4 버튼 : 빨간 Wrist가 사방으로 이동 - glRotated(WristAng, 0, 0, 1), glRotated(-WristTwistAng, 1, 0, 0)
-5 버튼 : 빨간 Finger가 집게처럼 이동 - glRotated(FingerAng1, 0, 0, 1), glRotated(FingerAng2, 0, 0, 1), glRotated(-FingerAng1, 0, 0, 1), glRotated(-FingerAng2, 0, 0, 1)
+- 1 버튼 : Base가 이동되어 로봇 전체가 스페이스 위로 이동 - glTranslated(BaseTransX, 0.00f, BaseTransZ)
+- 2 버튼 : Base 위의 Shoulder가 360도로 이동 - glRotated(BaseSpin, 0, 1, 0)
+- 3 버튼 : Base 위의 Shoulder와 Elbow가 상하로 이동  - glRotated(ShoulderAng, 0, 0, 1), glRotated(ElbowAng, 0, 0, 1)
+- 4 버튼 : 빨간 Wrist가 사방으로 이동 - glRotated(WristAng, 0, 0, 1), glRotated(-WristTwistAng, 1, 0, 0)
+- 5 버튼 : 빨간 Finger가 집게처럼 이동 - glRotated(FingerAng1, 0, 0, 1), glRotated(FingerAng2, 0, 0, 1), glRotated(-FingerAng1, 0, 0, 1), glRotated(-FingerAng2, 0, 0, 1)
 
 #### 2) modified_robot.cpp :
 
