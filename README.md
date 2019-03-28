@@ -20,7 +20,7 @@
 
 robot.cpp을 기본으로 하여 arcball interface를 접목시켰다. (주석에서 for HW4라고 쓰인 부분)
 
-#### Arcball 이란?
+- Arcball 이란?
 
 마우스를 이용한 view 회전으로, 물체 주위에 구를 만들어서 마우스로 물체를 회전시킨다.
 
